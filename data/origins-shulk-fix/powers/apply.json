@@ -1,0 +1,59 @@
+{
+    "type": "origins:multiple",
+    "get_cache": {
+        "type": "origins:action_on_callback",
+        "entity_action_lost": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if entity @s[tag = shulk]",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function origins-shulk-fix:internal/cache_get"
+                    }
+                }
+            ]
+        }
+    },
+    "cache_inv": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function origins-shulk-fix:internal/cache_inv"
+        },
+        "interval": 10,
+        "condition": {
+            "type": "origins:command",
+            "command": "execute if entity @s[tag = shulk]",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "determine": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "tag @s add shulk"
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "function origins-shulk-fix:internal/cache_get"
+        },
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:origin",
+                    "origin": "origins:shulk"
+                }
+            ]
+        }
+    },
+    "hidden": true
+}

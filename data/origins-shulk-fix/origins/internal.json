@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "origins-shulk-fix:apply"
+    ],
+    "icon": {
+        "item": "minecraft:shulker_shell"
+    },
+    "order": 0,
+    "impact": 0,
+    "name": "origins:shulk Fix",
+    "description": "A hidden origin for applying a band-aid fix to Shulk losing the items in its Shulker Inventory."
+}

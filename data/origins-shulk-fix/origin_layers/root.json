@@ -1,0 +1,8 @@
+{
+    "order": 1,
+    "origins": [
+        "origins-shulk-fix:internal"
+    ],
+    "name": "something",
+    "auto_choose": true
+}
