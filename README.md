@@ -5,4 +5,7 @@ This datapack uses [PlayerDB](https://github.com/rx-modules/PlayerDB), and [`phi
 
 
 ### Note:
-This only works for the Shulk Origin, since we can't check for power types in the `cardinal_components` NBT, only the names of the powers.
+This only works for the Shulk Origin (for now), since we can't check for power types in the `cardinal_components` NBT, only the names of the powers.
+<br>
+
+If you have any suggestions, feel free to make an issue in this repository!
