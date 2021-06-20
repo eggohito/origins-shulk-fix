@@ -1,2 +1,2 @@
 # not strictly necessary, but this function keeps the symmetry
-replaceitem entity @s armor.feet minecraft:air
+item replace entity @s armor.feet with minecraft:air

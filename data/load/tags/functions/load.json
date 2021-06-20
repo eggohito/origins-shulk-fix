@@ -1,6 +1,6 @@
 {
     "values": [
-    	"#load:rx/playerdb",
+    	"#rx.playerdb:load",
         "origins-shulk-fix:internal/load"
     ]
 }

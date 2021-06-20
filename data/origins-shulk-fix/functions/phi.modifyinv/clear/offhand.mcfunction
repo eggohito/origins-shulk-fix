@@ -1,2 +1,2 @@
 # not strictly necessary, but this function keeps the symmetry
-replaceitem entity @s weapon.offhand minecraft:air
+item replace entity @s weapon.offhand with minecraft:air
