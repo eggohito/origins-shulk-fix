@@ -1,0 +1,9 @@
+function origins-shulk-fix:phi.modifyinv/setup/whole_inventory
+function origins-shulk-fix:phi.modifyinv/load/hotbar
+function origins-shulk-fix:phi.modifyinv/drop/hotbar
+function origins-shulk-fix:phi.modifyinv/load/inventory
+function origins-shulk-fix:phi.modifyinv/drop/inventory
+function origins-shulk-fix:phi.modifyinv/load/armor
+function origins-shulk-fix:phi.modifyinv/drop/armor
+function origins-shulk-fix:phi.modifyinv/load/offhand
+function origins-shulk-fix:phi.modifyinv/drop/offhand
